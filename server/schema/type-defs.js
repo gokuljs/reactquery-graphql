@@ -14,6 +14,14 @@ const typeDefs = gql `
   type Query {
     users: [User!]!
   }
+
+  enum Nationality {
+    CANADA
+    INDIA
+    BRAZIL
+    CHINA
+    USA
+  }
 `;
 
 module.exports = { typeDefs };

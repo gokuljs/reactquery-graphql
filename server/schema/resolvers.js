@@ -1,7 +1,7 @@
 const { userList } = require("../fakeData");
 const resolvers = {
     Query: {
-        users() {
+        users: () => {
             return userList;
         },
     },

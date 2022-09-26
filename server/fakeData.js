@@ -3,28 +3,28 @@ const userList = [{
         name: "Gokul js ",
         username: "gokuljs",
         age: 13,
-        nationality: "indian",
+        nationality: INDIA,
     },
     {
         id: 1,
         name: "rahul",
         username: "rahul",
         age: 13,
-        nationality: "American",
+        nationality: CANADA,
     },
     {
         id: 1,
         name: "surya ",
         username: "surya",
         age: 13,
-        nationality: "afghan",
+        nationality: BRAZIL,
     },
     {
         id: 1,
         name: "Anchit",
         username: "Anchit",
         age: 13,
-        nationality: "Srilanka",
+        nationality: CHINA,
     },
 ];
 
